@@ -1,0 +1,14 @@
+{
+  "name": "videostreamingapp",
+  "version": "1.0.0",
+  "description": "Video Streaming App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "Sayak Sengupta",
+  "license": "ISC",
+  "dependencies": {
+    "requests": "^0.3.0"
+  }
+}

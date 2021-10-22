@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming App</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100vh;
+        background: #353b48;
+    }
+    video{
+        width: 100%;
+    }
+    .wrapper{
+        box-shadow: 0 0.2rem 3rem rgba(0,0,0,0.2);
+        width: 70%;
+        height: auto;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <video controls>
+            <source src = "http://localhost:8000/video" type="video/mp4">
+        </video>
+
+    </div>
+</body>
+</html>
